@@ -1,0 +1,27 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "json install attempt",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iCEDHONEYBUNZ/new-portfolio.git"
+  },
+  "keywords": [
+    "node",
+    "json",
+    "npm"
+  ],
+  "author": "jacob castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iCEDHONEYBUNZ/new-portfolio/issues"
+  },
+  "homepage": "https://github.com/iCEDHONEYBUNZ/new-portfolio#readme",
+  "dependencies": {
+    "json": "^9.0.6"
+  }
+}
