@@ -1,0 +1,427 @@
+/*
+colors used
+text color : #00ffdd;
+background color: #536872;
+dark-grey: #2b2b2b;
+light-grey: #d3d3d3; 
+arctic-white:#ffffff;
+space-black: #000000;
+sunrise-yellow: #edc655;
+midday-yellow: #fcffad;
+sunset-red: #f76414;
+*/
+
+
+/*=== GLOBAL ===*/
+
+:root {
+    --font18: 18px;
+    --font20: 20px;
+    --font-family: 'ubuntu';
+    --primary-color: #00ffdd;
+    --secondary-color: #536872;
+    --dark-grey: #2b2b2b;
+    --light-grey: #d3d3d3;
+    --arctic-white: #ffffff;
+    --space-black: #000000;
+    --sunrise-yellow: #edc655;
+    --midday-yellow: #fcffad;
+    --sunset-red: #f76414;
+}
+
+*,
+*::before *::after {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/*=== body ===*/
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    font-family: 'ubuntu', sans-serif;
+    background: #252829;
+    text-align: center;
+}
+
+header {
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.sec1 {
+    background: url("../img/concert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec2 {
+    padding: 100px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.sec2 h2 {
+    font-size: 3em;
+    padding: 0 0 20px;
+    color: #00ffdd;
+}
+
+.sec2 p {
+    font-size: var(--font20);
+    color: #00ffdd;
+    font-family: var(--font-family);
+}
+
+.sec3 {
+    background: url("../img/neon.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2500px;
+}
+
+.sec3 p {
+    margin: 80px;
+    font-size: var(--font20);
+    color: #00ffdd;
+    font-family: var(--font-family);
+    padding-top: 300px;
+}
+
+.sec4 {
+    background: url("../img/neon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2000px;
+}
+
+/*=== ===*/
+/*=== logo animation ===*/
+
+#logo-svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(2){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(3){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(4){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(5){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(6){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(7){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(8){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(9){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+#logo path:nth-child(10){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+}
+
+
+
+
+
+
+
+
+
+/*=== ===*/
+/*=== navbar ===*/
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #536872;
+    opacity: .8;
+    border-top: 3px solid #00ffdd;
+    border-bottom: 3px solid #00ffdd;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    display: block;
+    color: #00ffdd;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-weight: bold;
+    line-height: 50px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #000;
+}
+
+a:visited {
+    color: var(--primary-color);
+}
+
+/*=== link styling before and after ===*/
+a:hover:before,
+a:focus:before {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover:after,
+a:focus:after {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/*=== ===*/
+/*=== headings & text colors*/
+
+#title-bar {
+    font-size: 80px;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+#about-me {
+    font-size: 40px;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    font-size: 26px;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    text-transform: capitalize;
+}
+
+/*=== ===*/
+/*=== skills chart ===*/
+
+.chart-border {
+    border: 6px solid var(--primary-color);
+    background-color: var(--dark-grey);
+}
+
+.skills-chart th,
+.skills-chart tr {
+    color: var(--primary-color);
+    padding-right: 25px;
+}
+
+.skills-chart {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: var(--font18);
+}
+
+.categories {
+    padding-left: 30px;
+
+}
+
+.skill-html {
+    display: flex;
+    padding-left: 90px;
+}
+
+.skill-css {
+    display: flex;
+    padding-left: 95px;
+}
+
+.skill-java {
+    display: flex;
+    padding-left: 80px;
+}
+
+.level-advanced {
+    padding-right: 10px;
+}
+
+.level-inter {
+    padding-right: 25px;
+}
+
+.level-beginner {
+    padding-right: 10px;
+}
+
+/*=== ===*/
+/*=== DOWNLOAD BUTTON ===*/
+
+.download-button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.button,
+button {
+    border: none;
+    display: inline-block;
+    font-family: inherit;
+    background-color: var(--primary-color);
+    color: var(--space-black);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-top: 2px solid rgba(255, 0) border-bottom 2px solid rgba(0, 0, 0, 0.3);
+    transition-duration: 0.9s opacity;
+}
+
+.page-footer {
+    content: '';
+    cursor: pointer;
+    position: relative;
+    clear: both;
+    display: flex;
+    padding-right: 35px;
+    max-width: 200px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 53px;
+}
+
+.social-media {
+    transition: 0.2s opacity;
+}
+
+.follow-me {
+    color: var(--primary-color);
+    font-size: 28px;
+}
+
+#contact {
+    background: url("../img/neon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1800px;
+}
+
+.contact-title {
+    margin-top: 200px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    transition: all 2s ease-in-out;
+    font-family: var(--font-family);
+}
+
+.contact-title h1 {
+    font-size: 38px;
+    line-height: 15px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: var(--font18);
+    margin-bottom: 16px;
+}
+
+input { 
+    height: 45px;
+}
+
+form .submit {
+    width: 600px;
+    background: var(--primary-color);
+    border-color: transparent;
+    color: var(--space-black);
+    font-size: var(--font18);
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: var(--midday-yellow);
+    cursor: pointer;
+}
