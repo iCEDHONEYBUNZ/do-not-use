@@ -1,7 +1,7 @@
 {
   "name": "plurbook",
   "version": "1.0.0",
-  "description": "new animations for portfolio ",
+  "description": "npm node",
   "main": "app.js",
   "dependencies": {
     "acorn": "^7.0.0",
@@ -11,10 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "npm",
-    "node"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iCEDHONEYBUNZ/new-portfolio.git"
+  },
   "author": "jacob castillo",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iCEDHONEYBUNZ/new-portfolio/issues"
+  },
+  "homepage": "https://github.com/iCEDHONEYBUNZ/new-portfolio#readme"
 }
