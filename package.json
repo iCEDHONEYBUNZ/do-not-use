@@ -5,7 +5,9 @@
   "main": "app.js",
   "dependencies": {
     "acorn": "^7.0.0",
-    "acorn-jsx": "^5.0.1"
+    "acorn-jsx": "^5.0.1",
+    "js": "^0.1.0",
+    "mozilla": "0.0.0"
   },
   "devDependencies": {},
   "scripts": {
