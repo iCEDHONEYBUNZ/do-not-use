@@ -6,5 +6,6 @@
     "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
     "typescript.suggest.completeFunctionCalls": true,
     "editor.fontFamily": "Consolas, 'ubuntu', monospace",
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "files.eol": "\n"
 }
