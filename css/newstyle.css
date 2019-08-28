@@ -120,7 +120,7 @@ section {
 
 #logo path:nth-child(1) {
     stroke-dasharray: 200px;
-    stroke-dasharray: 50px;
+    stroke-dashoffset: 50px;
 }
 
 #logo path:nth-child(2) {}

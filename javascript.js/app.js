@@ -1,3 +1,3 @@
-const logo = document.querySelectorAll(`#logo path`);
+const logo = document.querySelectorAll('#logo path');
 
 console.log(logo);
