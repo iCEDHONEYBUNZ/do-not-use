@@ -60,9 +60,9 @@ section {
 }
 
 .sec1 {
-    background: url("../img/concert.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 100px;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .sec2 {
@@ -113,7 +113,7 @@ section {
 
 #logo {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
