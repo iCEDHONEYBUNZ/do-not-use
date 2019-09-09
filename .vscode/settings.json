@@ -1,0 +1,11 @@
+{
+    "editor.renderWhitespace": "all",
+    "eslint.provideLintTask": true,
+    "eslint.enable": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "editor.fontFamily": "Consolas, 'ubuntu', monospace",
+    "git.ignoreLimitWarning": true,
+    "files.eol": "\n"
+}
