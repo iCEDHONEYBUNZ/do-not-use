@@ -88,12 +88,18 @@ section {
     height: 2500px;
 }
 
+.sec3 h2 {
+    font-size: 3em;
+    padding: 0 0 20px;
+    color: #00ffdd;
+}
+
 .sec3 p {
-    margin: 80px;
+    margin: 95px;
     font-size: var(--font20);
     color: #00ffdd;
     font-family: var(--font-family);
-    padding-top: 300px;
+    padding-top: 30px;
 }
 
 .sec4 {
@@ -190,6 +196,7 @@ section {
         stroke-dashoffset: 0;
     }
 }
+
 @keyframes fill{
     from{
         fill: transparent;
@@ -415,7 +422,7 @@ button {
     font-size: 16px;
 }
 
-form {
+#contact-form {
     margin-top: 50px;
     transition: all 4s ease-in-out;
 }
