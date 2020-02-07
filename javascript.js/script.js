@@ -509,4 +509,412 @@ var repository = [
         height: 1.4,
         type: ['flying', 'normal']
     },
+    {
+        ID: 85,
+        name: 'dodrio',
+        height: 1.8,
+        type: ['flying', 'normal']
+    },
+    {
+        ID: 86,
+        name: 'seel',
+        height: 1.1,
+        type: ['water']
+    },
+    {
+        ID: 87,
+        name: 'dewgong',
+        height: 1.7,
+        type: ['ice', 'water']
+    },
+    {
+        ID: 88,
+        name: 'grimer',
+        height: 0.9,
+        type: ['poison']
+    },
+    {
+        ID: 89,
+        name: 'muk',
+        height: 1.2,
+        type: ['poison']
+    },
+    {
+        ID: 90,
+        name: 'shellder',
+        height: 0.3,
+        type: ['water']
+    },
+    {
+        ID: 91,
+        name: 'cloyster',
+        height: 1.5,
+        type: ['ice', 'water']
+    },
+    {
+        ID: 92,
+        name: 'gastly',
+        height: 1.3,
+        type: ['ghost', 'poison']
+    },
+    {
+        ID: 93,
+        name: 'haunter',
+        height: 1.6,
+        type: ['ghost', 'poison']
+    },
+    {
+        ID: 94,
+        name: 'gengar',
+        height: 1.5,
+        type: ['ghost', 'poison']
+    },
+    {
+        ID: 95,
+        name: 'onix',
+        height: 8.8,
+        type: ['rock', 'ground']
+    },
+    {
+        ID: 96,
+        name: 'drowzee',
+        height: 1,
+        type: ['psychic']
+    },
+    {
+        ID: 97,
+        name: 'hypno',
+        height: 1.6,
+        type: ['psychic']
+    },
+    {
+        ID: 98,
+        name: 'krabby',
+        height: 0.4,
+        type: ['water']
+    },
+    {
+        ID: 99,
+        name: 'kingler',
+        height: 1.3,
+        type: ['water']
+    },
+    {
+        ID: 100,
+        name: 'voltorb',
+        height: 0.5,
+        type: ['electric']
+    },
+    {
+        ID: 101,
+        name: 'electrode',
+        height: 1.2,
+        type: ['electric']
+    },
+    {
+        ID: 102,
+        name: 'exeggcute',
+        height: 0.4,
+        type: ['psychic', 'grass']
+    },
+    {
+        ID: 103,
+        name: 'exeggutor',
+        height: 2,
+        type: ['psychic', 'grass']
+    },
+    {
+        ID: 104,
+        name: 'cubone',
+        height: 0.4,
+        type: ['ground']
+    },
+    {
+        ID: 105,
+        name: 'marowak',
+        height: 1,
+        type: ['ground']
+    },
+    {
+        ID: 106,
+        name: 'hitmonlee',
+        height: 1.5,
+        type: ['fighting']
+    },
+    {
+        ID: 107,
+        name: 'hitmonchan',
+        height: 1.4,
+        type: ['fighting']
+    },
+    {
+        ID: 108,
+        name: 'lickitung',
+        height: 1.2,
+        type: ['normal']
+    },
+    {
+        ID: 109,
+        name: 'koffing',
+        height: 0.6,
+        type: ['poison']
+    },
+    {
+        ID: 110,
+        name: 'weezing',
+        height: 1.2,
+        type: ['poison']
+    },
+    {
+        ID: 111,
+        name: 'rhyhorn',
+        height: 1,
+        type: ['rock', 'ground']
+    },
+    {
+        ID: 112,
+        name: 'rhydon',
+        height: 1.9,
+        type: ['rock', 'ground']
+    },
+    {
+        ID: 113,
+        name: 'chansey',
+        height: 1.1,
+        type: ['normal']
+    },
+    {
+        ID: 114,
+        name: 'tangela',
+        height: 1,
+        type: ['normal']
+    },
+    {
+        ID: 115,
+        name: 'kangaskhan',
+        height: 2.2,
+        type: ['normal']
+    },
+    {
+        ID: 116,
+        name: 'horsea',
+        height: 0.4,
+        type: ['water']
+    },
+    {
+        ID: 117,
+        name: 'seadra',
+        height: 1.2,
+        type: ['water']
+    },
+    {
+        ID: 118,
+        name: 'goldeen',
+        height: 0.6,
+        type: ['water']
+    },
+    {
+        ID: 119,
+        name: 'seaking',
+        height: 1.3,
+        type: ['water']
+    },
+    {
+        ID: 120,
+        name: 'staryu',
+        height: 0.8,
+        type: ['water']
+    },
+    {
+        ID: 121,
+        name: 'starmie',
+        height: 1.1,
+        type: ['psychic', 'water']
+    },
+    {
+        ID: 122,
+        name: 'mr.mime',
+        height: 1.1,
+        type: ['psychic', 'fairy']
+    },
+    {
+        ID: 123,
+        name: 'scyther',
+        height: 1.5,
+        type: ['bug', 'flying']
+    },
+    {
+        ID: 124,
+        name: 'jynx',
+        height: 1.4,
+        type: ['psychic', 'ice']
+    },
+    {
+        ID: 125,
+        name: 'electabuzz',
+        height: 1.1,
+        type: ['electric']
+    },
+    {
+        ID: 125,
+        name: 'electabuzz',
+        height: 1.1,
+        type: ['electric']
+    },
+    {
+        ID: 126,
+        name: 'magmar',
+        height: 1.3,
+        type: ['fire']
+    },
+    {
+        ID: 127,
+        name: 'pinsir',
+        height: 1.5,
+        type: ['bug']
+    },
+    {
+        ID: 128,
+        name: 'tauros',
+        height: 1.4,
+        type: ['normal']
+    },
+    {
+        ID: 129,
+        name: 'magikarp',
+        height: 0.9,
+        type: ['water']
+    },
+    {
+        ID: 130,
+        name: 'gyarados',
+        height: 0.9,
+        type: ['water', 'flying']
+    },
+    {
+        ID: 131,
+        name: 'lapras',
+        height: 2.5,
+        type: ['ice', 'water']
+    },
+    {
+        ID: 132,
+        name: 'ditto',
+        height: 0.3,
+        type: ['normal']
+    },
+    {
+        ID: 133,
+        name: 'evee',
+        height: 0.3,
+        type: ['normal']
+    },
+    {
+        ID: 134,
+        name: 'vaporeon',
+        height: 1,
+        type: ['water']
+    },
+    {
+        ID: 135,
+        name: 'jolteon',
+        height: 0.8,
+        type: ['electric']
+    },
+    {
+        ID: 136,
+        name: 'flareon',
+        height: 0.9,
+        type: ['fire']
+    },
+    {
+        ID: 137,
+        name: 'porygon',
+        height: 0.8,
+        type: ['normal']
+    },
+    {
+        ID: 138,
+        name: 'omanyte',
+        height: 0.4,
+        type: ['water', 'rock']
+    },
+    {
+        ID: 139,
+        name: 'omastar',
+        height: 1,
+        type: ['water', 'rock']
+    },
+    {
+        ID: 140,
+        name: 'kabuto',
+        height: 0.5,
+        type: ['water', 'rock']
+    },
+    {
+        ID: 141,
+        name: 'kabutops',
+        height: 1.3,
+        type: ['water', 'rock']
+    },
+    {
+        ID: 142,
+        name: 'aerodactyl',
+        height: 1.8,
+        type: ['rock', 'flying']
+    },
+    {
+        ID: 143,
+        name: 'snorlax',
+        height: 2.1,
+        type: ['normal']
+    },
+    {
+        ID: 144,
+        name: 'articuno',
+        height: 1.7,
+        type: ['ice', 'flying']
+    },
+    {
+        ID: 145,
+        name: 'zapados',
+        height: 1.6,
+        type: ['electric', 'flying']
+    },
+    {
+        ID: 146,
+        name: 'moltres',
+        height: 2,
+        type: ['fire', 'flying']
+    },
+    {
+        ID: 147,
+        name: 'dragtini',
+        height: 1.8,
+        type: ['dragon']
+    },
+    {
+        ID: 148,
+        name: 'dragonair',
+        height: 4,
+        type: ['dragon']
+    },
+    {
+        ID: 149,
+        name: 'dragonite',
+        height: 2.2,
+        type: ['dragon', 'flying']
+    },
+    {
+        ID: 150,
+        name: 'mewtwo',
+        height: 2,
+        type: ['psychic']
+    },
+    {
+        ID: 151,
+        name: 'mew',
+        height: 0.4,
+        type: ['psychic']
+    },
 ];
