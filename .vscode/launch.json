@@ -7,17 +7,6 @@
         {
             "type": "node",
             "request": "attach",
-<<<<<<< HEAD
-            "name": "Attach by Process ID",
-            "processId": "${command:PickProcess}"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-=======
             "name": "attach by process ID",
             "processId": "${command:PickProcess}"
         },
@@ -26,7 +15,6 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}\\javascript.js"
->>>>>>> b18d9d5c4faaf56a9ccdf2f737b13eaa3efdb2fc
         }
     ]
 }

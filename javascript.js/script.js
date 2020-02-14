@@ -918,3 +918,9 @@ var repository = [
         type: ['psychic']
     },
 ];
+    
+function  printarraydetails(repository){
+    for (var i = 0; i < repository.length; i++) {
+        document.write("<p>" + repository[i].name + "</p>");
+    }
+}
